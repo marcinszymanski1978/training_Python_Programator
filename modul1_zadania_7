@@ -1,0 +1,32 @@
+lista = ['styczen', 'luty', 'marzec', 'kwiecien', 'maj', 'czerwiec', 'lipiec','sierpien','wrzesien','pazdziernik','listopad','grudzien']
+
+listaDlugosc = len(lista)
+
+for licznik in range(listaDlugosc):
+    print(lista[licznik], len(lista[licznik]))
+
+
+
+suma =1
+for a in range(10):
+    
+    suma = suma*(a+1)
+    print(suma)
+
+
+for b in range(100):
+    if (b+1)%3 == 0 and (b+1)%5 == 0:
+        print(b+1, "FizzBuzz")
+    elif (b+1)%3 == 0 :
+        print(b+1, "Fizz")
+    elif (b+1)%5 == 0:
+        print(b+1, "Buzz")
+
+
+for b in range(100):
+    if (100-b)%3 == 0 and (100-b)%5 == 0:
+        print(100-b, "FizzBuzz")
+    elif (100-b)%3 == 0 :
+        print(100-b, "Fizz")
+    elif (100-b)%5 == 0:
+        print(100-b, "Buzz")

@@ -1,0 +1,14 @@
+dzien_tygodnia=['poniedzialek','wtorek','sroda','czwartek','piatek','sobota','niedziela']
+x=len(dzien_tygodnia)
+print(x)
+dzien_tygodnia.append('poniedziela')
+print(dzien_tygodnia)
+dzien_tygodnia.insert(2,'popo')
+print(dzien_tygodnia)
+dzien_tygodnia.remove('popo')
+print(dzien_tygodnia)
+dzien_tygodnia.remove('poniedziela')
+print(dzien_tygodnia)
+lista_liczb=[1,2,3,4,4,4,5,6,7]
+lista_liczb.remove(4)
+print(lista_liczb)

@@ -1,0 +1,49 @@
+x= 'Marcin'
+y = 'Szymanski'
+
+print ("Witam, nazywam się " + x+ " "+y)
+
+dzien = '02'
+miesiac = '08'
+rok = '2019'
+print('Dziś mamy dzień '+dzien,miesiac,rok,sep='.')
+
+a=1
+b=2
+c=3
+
+if (a > b and a > c) :
+    print('Najwieksze jest "a" = '+str(a))
+
+if (b > c and b > a):
+    print('Najwieksze jest "b" = '+str(b))
+
+if (c > a and c > b):
+    print('Najwieksze jest "c" = '+str(c)) 
+
+a = 10
+b = 90
+c = 127
+print('a =',a, a%9)
+print('b =',b, b%9)
+print('c =',c, c%9)
+
+lista = [x,y, a,b,c, dzien,miesiac,rok]
+print(lista)
+search = input('Podaj wartość do wyszukania na liscie')
+for szukana in lista:
+    if str(szukana) == search:
+        print(szukana, ' BINGO !')
+    else:
+        print(szukana," niestety...")
+
+
+liczby = [1,2,30,5,9,6,70,45]
+
+suma = 0
+srednia = 0
+
+for licznik in liczby:
+    suma+=licznik
+
+print(liczby, suma, len(liczby), suma/len(liczby))

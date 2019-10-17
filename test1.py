@@ -1,0 +1,10 @@
+x="Marcin"
+y="Szymański"
+print(x+y)
+print(len(x))
+print(len(y))
+z=5
+z1=6
+z2=7
+print(str(z)+","+str(z1)+","+str(z2))
+print(z,z1,z2,sep=",")
